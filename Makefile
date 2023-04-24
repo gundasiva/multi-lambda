@@ -35,3 +35,8 @@ clean-all:
 	rm -rf deploy && \
 	find . -type d -name dist -prune -exec rm -r {} + && \
 	find . -type d -name tmp -prune -exec rm -r {} +
+
+############
+# Includes #
+############
+include Makehelp.mk
